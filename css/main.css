@@ -74,6 +74,7 @@ ul li:hover a {
 	font-style: normal;
 	font-family: raleway;
 	font-weight: 100;
+	font-size: 2em;
 }
 /* Hero Section */
 .hero {
@@ -153,7 +154,7 @@ ul li:hover a {
 /* Parallax Section */
 .banner {
 	background-color: #52BAD5;
-	background-image:url(../images/WITA_SubHero.jpg);
+	background-image:url(../images/WITA_parallax.jpg);
 	height: 400px;
 	background-attachment: fixed;
 	background-size: cover;
@@ -162,7 +163,7 @@ ul li:hover a {
 .parallax {
 	color: #FFFFFF;
 	text-align: left;
-	padding-left: 100px;
+	padding-left: 85px;
 	padding-top: 110px;
 	letter-spacing: 2px;
 	margin-top: 0px;
