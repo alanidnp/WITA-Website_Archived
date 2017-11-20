@@ -277,7 +277,7 @@ footer .footer_column p {
 	margin-right: 20px;
 }
 .button {
-	background-color: #03A2B6;
+	background-color: #09C8E2;
 	width: 200px;
 	margin-top: 40px;
 	margin-right: auto;
@@ -298,7 +298,7 @@ footer .footer_column p {
 	transition: all 0.3s linear;
 }
 .button:hover {
-	background-color: #015C67;
+	background-color: #07AFC6;
 	color: #FAF2F2;
 	cursor: pointer;
 }
