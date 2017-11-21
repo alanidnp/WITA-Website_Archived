@@ -201,18 +201,17 @@ ul li:hover a {
 	margin-left: 0px;
 }
 .contactCTA {
-	width: 36%;
+	width: 35%;
 	margin-left: 0px;
 	padding-top: 85px;
 	padding-right: 0px;
 	padding-bottom: 0px;
-	padding-left: 40px;
+	padding-left: 45px;
 	text-align: right;
 	border-radius: 0px;
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: 2px;
-	border: 3px solid #FFFFFF;
 	transition: all 0.3s linear;
 }
 
@@ -276,9 +275,18 @@ footer .footer_column p {
 	margin-left: 20px;
 	margin-right: 20px;
 }
+.sponsorgallery{
+	margin-top: 2em;
+	margin-right: 1em;
+	margin-bottom: 2em;
+	margin-left: 0px;
+	color: #A3A3A3;
+	text-align: center;
+	vertical-align: middle;
+	}
 .button {
 	background-color: #09C8E2;
-	width: 200px;
+	width: 300px;
 	margin-top: 40px;
 	margin-right: auto;
 	margin-bottom: auto;
