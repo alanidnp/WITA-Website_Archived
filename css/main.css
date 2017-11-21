@@ -201,12 +201,12 @@ ul li:hover a {
 	margin-left: 0px;
 }
 .contactCTA {
-	width: 35%;
+	width: 30%;
 	margin-left: 0px;
-	padding-top: 85px;
+	padding-top: 100px;
 	padding-right: 0px;
 	padding-bottom: 0px;
-	padding-left: 45px;
+	padding-left: 100px;
 	text-align: right;
 	border-radius: 0px;
 	text-transform: uppercase;
@@ -219,7 +219,7 @@ ul li:hover a {
 	background-color: #09C8E2;
 	width: 200px;
 	margin-top: 40px;
-	margin-right: 10px;
+	margin-right: 0px;
 	margin-bottom: auto;
 	margin-left: auto;
 	padding-top: 20px;
@@ -286,8 +286,8 @@ footer .footer_column p {
 	}
 .button {
 	background-color: #09C8E2;
-	width: 300px;
-	margin-top: 40px;
+	width: 350px;
+	margin-top: 50px;
 	margin-right: auto;
 	margin-bottom: auto;
 	margin-left: auto;
@@ -421,7 +421,7 @@ nav ul li {
 	text-align: left;
 }
 .banner {
-	background-color: #FE541F;
+	background-color: #22395B;
 	background-image: none;
 }
 .tagline {
@@ -488,7 +488,7 @@ nav ul li {
 	margin-top: 0px;
 }
 .parallax {
-	text-align: center;
+	text-align: right;
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
@@ -500,23 +500,73 @@ nav ul li {
 	width: 100%;
 	font-size: 18px;
 }
-.parallax_description {
+
+.parallax_h2 {
+	width: 60%;
+	color: #FFFFFF;
+	text-align: right;
+	padding-left: 100px;
+	padding-top: 0px;
+	letter-spacing: 2px;
+	margin-top: 0px;
+	border: 1px solid #FFFFFF;
+}
+ .parallax_description {
 	padding-top: 0px;
 	padding-right: 0px;
 	padding-bottom: 0px;
 	padding-left: 0px;
-	margin-top: 30%;
+	margin-top: 0%;
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
-	float: none;
-	width: 100%;
+	float: left;
+	width: 75%;
+	text-align: right;
+} 
+.contactCTA {
+	width: 60%;
+	margin-top: 0em;
+	margin-bottom: 0em;
+	margin-left: 0em;
+	padding-top: 0em;
+	padding-right: 0em;
+	padding-bottom: 0em;
+	padding-left: 0em;
+	text-align: right;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	transition: all 0.3s linear;
+	border: 1px solid #FFFFFF;
+}
+
+.parallax_button {
+	background-color: #09C8E2;
+	width: 20%;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
 	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border: 3px solid #FFFFFF;
+	color: #FFFFFF;
+	transition: all 0.3s linear;
 }
 .thumbnail {
 	width: 50%;
 }
-.parallax {
+/*.parallax {
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
@@ -524,16 +574,16 @@ nav ul li {
 	padding-right: 0px;
 	padding-bottom: 0px;
 	padding-left: 0px;
-	padding-top: 20%;
+	padding-top: 20%;*/
 }
-.parallax_description {
+/*.parallax_description {
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
 	width: 100%;
 	padding-top: 30px;
-}
+}*/
 .banner {
 	padding-left: 20px;
 	padding-right: 20px;
