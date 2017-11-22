@@ -162,7 +162,7 @@ ul li:hover a {
 }
 /* Parallax Section */
 .banner {
-	background-color: #52BAD5;
+	background-color: #22395B;
 	background-image:url(../images/WITA_parallax.jpg);
 	height: 400px;
 	background-attachment: fixed;
@@ -418,6 +418,13 @@ nav ul li {
 	width: 100%;
 	margin-top: 0px;
 }
+.parallax_h2 {
+	text-align: center;
+	width: 100%;
+	padding-left: 0px;
+	padding-top: 50px;
+	font-size: 20px;
+	}
 .parallax {
 	text-align: right;
 	margin-top: 0px;
@@ -433,19 +440,45 @@ nav ul li {
 }
 .parallax_description {
 	padding-top: 0px;
-	padding-right: 0px;
+	padding-right: 15px;
 	padding-bottom: 0px;
-	padding-left: 0px;
+	padding-left: 15px;
+	margin-top: 0px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+	float: none;
 	width: 90%;
-	margin-top: 25px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 12px;
-	float: left;
 	text-align: left;
 }
+	
+.contactCTA {
+	text-align: center;
+	padding-left: 0px;
+	padding-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+	
+.parallax_button {
+	background-color: #09C8E2;
+	width: 100px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	margin-right: 15px;
+	margin-bottom: 10px;
+	margin-left: 15px;
+	margin-top: 20px;
+	border: 3px solid #FFFFFF;
+	color: #FFFFFF;
+	transition: all 0.3s linear;
+	font-size: 1em
+	}
 .banner {
-	background-color: #FE541F;
+	background-color: #22395B;
 	background-image: none;
 }
 .tagline {
@@ -524,32 +557,6 @@ nav ul li {
 	width: 100%;
 	font-size: 18px;
 }
-.parallax_description {
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	margin-top: 30%;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	float: none;
-	width: 100%;
-	text-align: center;
-}
-.thumbnail {
-	width: 50%;
-}
-.parallax {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	padding-top: 20%;
-}
 .parallax_h2 {
 	text-align: center;
 	width: 100%;
@@ -558,20 +565,28 @@ nav ul li {
 	}
 	
 .parallax_description {
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
+	float: none;
 	width: 100%;
-	padding-top: 30px;
+	text-align: center;
 }
 	
 .contactCTA {
 	text-align: center;
-	width: 100%;
+	width: 70%;
 	padding-left: 0px;
-	padding-top: 5px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
 }
+	
 .parallax_button {
 	background-color: #09C8E2;
 	width: 200px;
@@ -579,10 +594,18 @@ nav ul li {
 	padding-right: 10px;
 	padding-bottom: 20px;
 	padding-left: 10px;
+	margin-top: 30px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	margin-left: 20px;
 	border: 3px solid #FFFFFF;
 	color: #FFFFFF;
 	transition: all 0.3s linear;
 	}
+.thumbnail {
+	width: 50%;
+}
+
 .banner {
 	padding-left: 20px;
 	padding-right: 20px;
