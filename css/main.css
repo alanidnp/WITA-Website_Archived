@@ -491,7 +491,7 @@ nav ul li {
 		display: none;
 	}
 
-	.button{
+.button{
 	font-weight: bold;
 	font-size: 12px;
 	padding-top: 5px;
@@ -502,8 +502,7 @@ nav ul li {
 	border: 3px solid #FFFFFF;
 	color: #FFFFFF;
 	transition: all 0.3s linear;
-	width: 60%;
-		
+	width: 60%;	
 		
 	}
 	
@@ -521,6 +520,21 @@ nav ul li {
 	font-size: 18px;
 	text-align: center;
 }
+
+.attribution{
+	background-color: #717070;
+	text-align: center;
+	color: #FFFFFF;
+	padding-top: 10px;
+	padding-bottom: 10PX;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	border-top-width: 2px;
+	font-size: .10em
+
 }
 
 /* Small Tablets */
@@ -661,6 +675,19 @@ nav ul li {
 
 .footer_column {
 	width: 100%;
+}
+	
+.attribution{
+	background-color: #717070;
+	text-align: center;
+	color: #FFFFFF;
+	padding-top: 10px;
+	padding-bottom: 10PX;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	border-top-width: 2px;
+	font-size: .30em
 }
 }
 
